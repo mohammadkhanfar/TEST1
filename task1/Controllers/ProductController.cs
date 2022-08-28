@@ -25,7 +25,7 @@ namespace product.Controllers
         public ActionResult<Task<Product>> Getbyid(int id)
             
         {
-            var x = 1000;
+            var x = 100000;
             var pro=intp.Getbyid(id);
             if(pro==null)
                 return NotFound();
